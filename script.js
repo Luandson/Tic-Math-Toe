@@ -93,12 +93,19 @@ function allowDrop(ev) {
         ev.target.removeAttribute("ondragover");
         ev.target.setAttribute("data-value",dropData.getAttribute("data-value"));
         if(hasWinner(ev.target)){
+            if(turn){
+                alert("Jogador 1 VENCEU!!!");
+            }else{
+                alert("Jogador 2 VENCEU!!!");
+            }
+            
             console.log("TEVE VENCEDOR");
         }else{
             turn = !turn;
             playerTurn();
         }
         if(draw()){
+            alert("EMPATOU");
             console.log("EMPATOU");
         }
     }
