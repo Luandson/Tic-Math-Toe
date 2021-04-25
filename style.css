@@ -1,0 +1,122 @@
+#player1, #player2{
+    background-color: orange;
+    height: 16vh;
+    min-width: 60vh;
+}
+
+
+#game_area{
+    background-color: lightgray;
+    height: 60vh;
+}
+
+
+.navbar-brand{
+    font-size: 3vh;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    font-size: 3vh;
+    padding: 0;
+}
+
+#left_board_area, #right_board_area{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#board_area{
+    min-width: 60vh;
+    max-width: 60vh;
+    min-height: 60vh;
+    max-height: 60vh;
+    background-color:darkgray;
+    background-image: url(images/field.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    height: 8vh;
+    
+}
+
+.navbar{
+    height: 8vh;
+    max-height: 8vh;
+    padding: 0;
+}
+
+.col-2{
+    height: 8vh;
+    padding: 0;
+}
+
+.col-1{
+ padding: 0;
+}
+
+.fixed-ratio-resize {
+    height: 100%;
+    width: auto;
+
+}
+
+
+#player1_slot, #player2_slot{
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#n0, #n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8{
+    background-image: url(images/slot.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+}
+
+#r0, #r1, #r2, #r3, #r4, #r5, #r6, #r7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#turn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#o1, #o2, #o3, #o4, #o5, #o6, #o7, #o8, #o9, #o10, #o11, #o12, #o13, #o14, #o15, #o16{
+    background-image: url(images/plus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+}
+
+
+
+#player1_monsters_slot, #player2_monsters_slot{
+    width: 80%;
+    height: 90%;
+}
+
+
+#player1_monsters_slot0, #player1_monsters_slot1, #player1_monsters_slot2, #player1_monsters_slot3, #player1_monsters_slot4, #player1_monsters_slot5, #player1_monsters_slot6, #player1_monsters_slot7,
+#player2_monsters_slot0, #player2_monsters_slot1, #player2_monsters_slot2, #player2_monsters_slot3, #player2_monsters_slot4, #player2_monsters_slot5, #player2_monsters_slot6, #player2_monsters_slot7{
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+}
+
+
