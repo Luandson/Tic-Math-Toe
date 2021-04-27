@@ -120,11 +120,15 @@ function generatePossibilities(){
     var min = Math.min(...unique);
     var resultArea;
     var results = [];
+    
     for(var i = 0; i < 8; i++){
         results[i] = unique[getRandomIndex(min, max)] + unique[getRandomIndex(min, max)] + unique[getRandomIndex(min, max)]
         resultArea = document.getElementById("r"+i);
         resultArea.setAttribute("data-value",results[i]);
-        resultArea.appendChild(document.createTextNode(results[i]));
+        var r_img = document.createElement("img");
+        r_img.src = "images/numbers/"+results[i]+".png";
+        r_img.style.height = "6vh";
+        resultArea.appendChild(r_img);
     }
 }
 
