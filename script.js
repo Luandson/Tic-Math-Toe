@@ -151,7 +151,7 @@ function playerTurn(){
             playerOfTurn[i].setAttribute("draggable",true);
         }
         setTurn = document.getElementById("turn");
-        setTurn.textContent = "Vez do Jogador 1";
+        setTurn.style.backgroundImage = "url(images/TurnP1.png)";
     }else{
         // COLOCAR AQUI A VEZ DO JOGADOR 2
         player = document.getElementById("player1_monsters_slot").children;
@@ -163,7 +163,7 @@ function playerTurn(){
             playerOfTurn[i].setAttribute("draggable",true);
         }
         setTurn = document.getElementById("turn");
-        setTurn.textContent = "Vez do Jogador 2";
+        setTurn.style.backgroundImage = "url(images/TurnP2.png)";
     }
 }
 

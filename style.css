@@ -94,6 +94,7 @@ body{
     padding: 0;
 }
 
+
 #n1, #n3, #n5, #n7{
     background-image: url(images/slot2.png);
     background-repeat: no-repeat;
@@ -114,6 +115,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
 }
 
 #o1, #o2, #o3, #o4, #o5, #o6, #o7, #o8, #o9, #o10, #o11, #o12, #o13, #o14, #o15, #o16{
