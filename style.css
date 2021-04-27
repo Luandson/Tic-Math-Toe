@@ -2,7 +2,6 @@
     background-color: orange;
     height: 16vh;
     min-width: 60vh;
-    
 }
 
 
@@ -129,11 +128,16 @@ body{
     padding: 0;
 }
 
-
+#player1_monsters, #player2_monsters{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
 
 #player1_monsters_slot, #player2_monsters_slot{
     width: 80%;
     height: 90%;
+    background-color: #F7910F;
 }
 
 
