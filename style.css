@@ -2,6 +2,7 @@
     background-color: orange;
     height: 16vh;
     min-width: 60vh;
+    
 }
 
 
@@ -17,7 +18,7 @@
 }
 
 body{
-    background-color: gray;
+    background-color: lightgray;
     font-size: 3vh;
     padding: 0;
 }
@@ -45,6 +46,18 @@ body{
 }
 
 .navbar{
+    height: 8vh;
+    max-height: 8vh;
+    padding: 0;
+}
+
+.nav{
+    height: 8vh;
+    max-height: 8vh;
+    padding: 0;
+}
+
+#navbar{
     height: 8vh;
     max-height: 8vh;
     padding: 0;
@@ -81,7 +94,7 @@ body{
     padding: 0;
 }
 
-##n1, #n3, #n5, #n7{
+#n1, #n3, #n5, #n7{
     background-image: url(images/slot2.png);
     background-repeat: no-repeat;
     background-size: contain;
