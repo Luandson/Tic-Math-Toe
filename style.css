@@ -73,13 +73,22 @@ body{
 }
 
 
-#n0, #n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8{
-    background-image: url(images/slot.png);
+#n0, #n2, #n4, #n6, #n8{
+    background-image: url(images/slot1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     padding: 0;
 }
+
+##n1, #n3, #n5, #n7{
+    background-image: url(images/slot2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+}
+
 
 #r0, #r1, #r2, #r3, #r4, #r5, #r6, #r7{
     display: flex;
