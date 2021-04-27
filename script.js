@@ -127,7 +127,7 @@ function generatePossibilities(){
         resultArea.setAttribute("data-value",results[i]);
         var r_img = document.createElement("img");
         r_img.src = "images/numbers/"+results[i]+".png";
-        r_img.style.height = "6vh";
+        r_img.style.height = "3vh";
         resultArea.appendChild(r_img);
     }
 }
