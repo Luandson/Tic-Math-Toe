@@ -3,7 +3,7 @@ myMusic = document.createElement("audio");
 myMusic.src = "sounds/happy_adveture.mp3";
 myMusic.play()
 myMusic.loop = true;
-var play;
+var play = true;
 
 
 function play_pause(){
