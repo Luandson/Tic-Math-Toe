@@ -21,112 +21,21 @@
           </nav>
     </div>
     <div class="container-fluid">
-        <div class="body">
-            <div class="row" id="player1">
-                <div class="col-4" id="player1_slot">
-                    <img class="fixed-ratio-resize" draggable="false" src="./images/p1.gif" alt="player 1">
-                </div>
-                <div class="col-8" id="player1_monsters">
-                    <div class="row" id="player1_monsters_slot">
-                        <div class="col-3" id="player1_monsters_slot0" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player1_monsters_slot1" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player1_monsters_slot2" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player1_monsters_slot3" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player1_monsters_slot4" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player1_monsters_slot5" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player1_monsters_slot6" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player1_monsters_slot7" ondragstart="drag(event)"></div>
-                    </div>
-                </div>
-            </div>
-            <div  class="row" id="game_area">
-                <div class="col" id="left_board_area">
-                </div>
-                <div class="col" id="board_area">
-                    <div class="row" id="row_0">
-                        <div class="col-2" id="r0"></div>
-                        <div class="col-8" id="turn"></div>
-                        <div class="col-2" id="r1"></div>
-                    </div>
-                    <div class="row" id="row_1">
-                        <div class="col-2" id="r2"></div>
-                        <div class="col-2" id="n0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-1" id="o1"></div>
-                        <div class="col-2" id="n1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-1" id="o2"></div>
-                        <div class="col-2" id="n2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-2"></div>
-                    </div>
-                    <div class="row" id="row_2">
-                        <div class="col-2"></div>
-                        <div class="col-2" id="o3"></div>
-                        <div class="col-1" id="o4"></div>
-                        <div class="col-2" id="o5"></div>
-                        <div class="col-1" id="o6"></div>
-                        <div class="col-2" id="o7"></div>
-                        <div class="col-2"></div>
-                    </div>
-                    <div class="row" id="row_3">
-                        <div class="col-2" id="r3"></div>
-                        <div class="col-2" id="n3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-1" id="o8"></div>
-                        <div class="col-2" id="n4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-1" id="o9"></div>
-                        <div class="col-2" id="n5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-2"></div>
-                    </div>
-                    <div class="row" id="row_4">
-                        <div class="col-2"></div>
-                        <div class="col-2" id="o10"></div>
-                        <div class="col-1" id="o11"></div>
-                        <div class="col-2" id="o12"></div>
-                        <div class="col-1" id="o13"></div>
-                        <div class="col-2" id="o14"></div>
-                        <div class="col-2"></div>
-                    </div>
-                    <div class="row" id="row_5">
-                        <div class="col-2" id="r4"></div>
-                        <div class="col-2" id="n6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-1" id="o15"></div>
-                        <div class="col-2" id="n7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-1" id="o16"></div>
-                        <div class="col-2" id="n8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div class="col-2"></div>
-                    </div>
-                    <div class="row" id="row_6">
-                        <div class="col-2"></div>
-                        <div class="col-2" id="r5"></div>
-                        <div class="col-1"></div>
-                        <div class="col-2" id="r6"></div>
-                        <div class="col-1"></div>
-                        <div class="col-2" id="r7"></div>
-                        <div class="col-2"></div>
-                    </div>
-                </div>
-                <div class="col"id="right_board_area">
-                    
-                </div>
-            </div>
-            <div  class="row" id="player2">
-                <div class="col-4" id="player2_slot">
-                    <img class="fixed-ratio-resize" draggable="false" src="./images/p2.gif" alt="player 2">
-                </div>
-                <div class="col-8" id="player2_monsters">
-                    <div class="row" id="player2_monsters_slot">
-                        <div class="col-3" id="player2_monsters_slot0" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player2_monsters_slot1" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player2_monsters_slot2" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player2_monsters_slot3" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player2_monsters_slot4" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player2_monsters_slot5" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player2_monsters_slot6" ondragstart="drag(event)"></div>
-                        <div class="col-3" id="player2_monsters_slot7" ondragstart="drag(event)"></div>
-                    </div>
+        <div class="body" id="body_home">
+            <div class="row justify-content-end" id="button_row">
+                <div class="col-6" id="button_slot">
+                    <a href="game.html">BUTTON PLAY</a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer bg-light">
+        <p>Copyright © 2021 Luandson.</p>
+        <p>
+            Está página está sob uma licença 
+            <a rel="license noopener noreferrer" target="_blank" href="https://directory.fsf.org/wiki/License:Expat">MIT License</a>
+            .
+        </p>
+    </div>
 </body>
-<script type="text/javascript" src="script.js"></script>
 </html>

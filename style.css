@@ -22,6 +22,37 @@ body{
     padding: 0;
 }
 
+#body_home{
+    background-image: url(images/theme.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+    height: 84vh;
+}
+
+.footer{
+    height: 8vh;
+    font-size: 2vh;
+    padding: 0 3%;
+}
+
+p{
+    margin: 0;
+}
+
+#button_row{
+    height: 100%;
+}
+
+#button_slot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
 #left_board_area, #right_board_area{
     width: auto;
     display: flex;
