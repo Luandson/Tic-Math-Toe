@@ -1,5 +1,8 @@
 #player1, #player2{
-    background-color: orange;
+    background-image: url(images/board.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     height: 16vh;
     min-width: 60vh;
 }
@@ -7,7 +10,11 @@
 
 #game_area{
     background-color: lightgray;
+    background-image: url(images/ticmath1.png);
     height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -131,6 +138,12 @@ p{
     background-size: contain;
     background-position: center;
     padding: 0;
+    
+}
+
+#player1_monsters_slot0, #player1_monsters_slot1, #player1_monsters_slot2, #player1_monsters_slot3, #player1_monsters_slot4, #player1_monsters_slot5, #player1_monsters_slot6, #player1_monsters_slot7, #player2_monsters_slot0, #player2_monsters_slot1, #player2_monsters_slot2, #player2_monsters_slot3, #player2_monsters_slot4, #player2_monsters_slot5, #player2_monsters_slot6, #player2_monsters_slot7 {
+    height: 9vh;
+    margin-top: -19px;
 }
 
 
@@ -167,8 +180,8 @@ p{
 
 #player1_monsters_slot, #player2_monsters_slot{
     width: 80%;
-    height: 90%;
-    background-color: #F7910F;
+    height: 80%;
+    background-color:rgba(255,255,255,0.3);
 }
 
 
