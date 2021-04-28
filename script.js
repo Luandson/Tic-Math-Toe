@@ -99,14 +99,12 @@ function allowDrop(ev) {
                 alert("Jogador 2 VENCEU!!!");
             }
             
-            console.log("TEVE VENCEDOR");
         }else{
             turn = !turn;
             playerTurn();
         }
         if(draw()){
             alert("EMPATOU");
-            console.log("EMPATOU");
         }
     }
     
@@ -187,6 +185,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r0").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -197,6 +201,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n6").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r5").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -207,6 +217,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n2").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r2").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -219,6 +235,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n2").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r2").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -229,6 +251,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n7").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r6").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -241,6 +269,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n2").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r2").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -251,6 +285,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n2").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r1").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -261,6 +301,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n2").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r7").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -273,6 +319,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n6").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r5").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -283,6 +335,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n5").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r3").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -295,6 +353,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n7").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r6").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -305,6 +369,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r0").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -315,6 +385,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n6").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r1").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -325,6 +401,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n5").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r3").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -337,6 +419,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r7").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -347,6 +435,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n5").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r3").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -359,6 +453,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n6").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r1").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -369,6 +469,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n6").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r5").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -379,6 +485,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r4").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -391,6 +503,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n7").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r6").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -401,6 +519,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r4").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -413,6 +537,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r0").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -423,6 +553,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r7").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
@@ -433,6 +569,12 @@ function hasWinner(target){
                 n3 = document.getElementById("n8").children;
                 sum = Number(n1[0].getAttribute("data-value")) + Number(n2[0].getAttribute("data-value")) + Number(n3[0].getAttribute("data-value"));
                 if(sum == document.getElementById("r4").getAttribute("data-value")){
+                    n1[0].style.backgroundImage = "url(images/"+n1[0].getAttribute("data-value")+".gif)";
+                    n1[0].style.height = "200%";
+                    n2[0].style.backgroundImage = "url(images/"+n2[0].getAttribute("data-value")+".gif)";
+                    n2[0].style.height = "200%";
+                    n3[0].style.backgroundImage = "url(images/"+n3[0].getAttribute("data-value")+".gif)";
+                    n3[0].style.height = "200%";
                     return true;
                 }
             }
