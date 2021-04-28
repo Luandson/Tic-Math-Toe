@@ -128,6 +128,7 @@ function generatePossibilities(){
         var r_img = document.createElement("img");
         r_img.src = "images/numbers/"+results[i]+".png";
         r_img.style.height = "3vh";
+        r_img.setAttribute("draggable",false);
         resultArea.appendChild(r_img);
     }
 }
@@ -146,9 +147,11 @@ function playerTurn(){
         playerOfTurn = document.getElementById("player1_monsters_slot").children;
         for(var i = 0; i < player.length; i++){
             player[i].setAttribute("draggable",false);
+            player[i].removeAttribute("ondragstart");
         }
         for(var i = 0; i < playerOfTurn.length; i++){
             playerOfTurn[i].setAttribute("draggable",true);
+            playerOfTurn[i].setAttribute("ondragstart","drag(event)");
         }
         setTurn = document.getElementById("turn");
         setTurn.style.backgroundImage = "url(images/TurnP1.png)";
@@ -158,9 +161,11 @@ function playerTurn(){
         playerOfTurn = document.getElementById("player2_monsters_slot").children;
         for(var i = 0; i < player.length; i++){
             player[i].setAttribute("draggable",false);
+            player[i].removeAttribute("ondragstart");
         }
         for(var i = 0; i < playerOfTurn.length; i++){
             playerOfTurn[i].setAttribute("draggable",true);
+            playerOfTurn[i].setAttribute("ondragstart","drag(event)");
         }
         setTurn = document.getElementById("turn");
         setTurn.style.backgroundImage = "url(images/TurnP2.png)";
