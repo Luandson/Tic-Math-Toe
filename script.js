@@ -4,6 +4,7 @@ var turn = true;
 var count = 0;
 
 
+
 createMonster();
 populateMonster();
 generatePossibilities();

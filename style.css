@@ -34,6 +34,10 @@
     width: auto;
 }
 
+#button_play{
+    max-width: 20vw;
+}
+
 body{
     background-color: white;
     font-size: 3vh;
